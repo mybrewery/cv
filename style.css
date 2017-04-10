@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+html {
+	width: 100%;
+}
+
+html, body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #ffffff;
+}
+
+body {
+	padding: 40px 0;
+	width: 800px;
+	border: 16px solid #b5d4b7;
+}
+
+p, h1, h2, h3, h4, h5 {
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+}
+
+h1, h3 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h4 {
+	margin-bottom: 4px;
+}
+
+h5 {
+	margin-bottom: 8px;
+}
+
+p {
+	font-size: 14px;
+}
+
+.right p {
+	margin-bottom: 32px;	
+}
+
+h3 {
+	margin-bottom: 16px;
+}
+
+h5 {
+	font-weight: 400;
+    font-size: 16px;
+}
+
+h5.small-margin {
+	margin-bottom: 2px;
+}
+
+p.small-margin {
+	margin: 0;
+}
+
+i {
+	margin: 4px 0 32px 0;
+}
+
+.sep-icon {
+	height: 48px;
+	margin-bottom: 36px;
+}
+
+.left, .right {
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+    box-sizing: border-box;
+}
+
+.left {
+	align-items: flex-end;
+    text-align: right;
+}
+
+.right {
+	align-items: flex-start;
+    text-align: left;
+}
+
+.separator {
+	padding: 22px 0;
+}
+
+.separator div {
+	height: 100%;
+	border-left: 2px dotted black;
+}
+
+.double {
+	display: flex;
+	margin-bottom: 48px;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 36px;
+    margin-bottom: 58px;
+}
